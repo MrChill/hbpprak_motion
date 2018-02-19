@@ -293,7 +293,7 @@
           <lower>-2864.79</lower>
           <upper>2864.79</upper>
           <effort>1000</effort>
-          <velocity>1</velocity>
+          <velocity>100</velocity>
         </limit>
         <dynamics>
           <damping>1</damping>

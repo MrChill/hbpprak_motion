@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ExD xmlns="http://schemas.humanbrainproject.eu/SP10/2014/ExDConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <name>Motion Challenge</name>
+  <thumbnail>ExDTemplateManipulation.jpg</thumbnail>
+  <description>Hit a ball as far as possible with a tennis racket</description>
+  <tags>hollie robotics</tags>
+  <timeout>840.0</timeout>
+  <configuration src="ExDTemplateManipulation.3ds" type="3d-settings"/>
+  <maturity>production</maturity>
+  <environmentModel src="empty_world/empty_world.sdf">
+    <robotPose theta="0.0" ux="0.0" uy="0.0" uz="1.0" x="0.0" y="0.0" z="0.04"/>
+  </environmentModel>
+  <bibiConf src="bibi_configuration.bibi"/>
+  <experimentControl>
+    <stateMachine id="throw_ball" src="throw_ball.exd" xsi:type="SMACHStateMachine"/>
+  </experimentControl>
+  <cameraPose>
+    <cameraPosition x="4.5" y="0.0" z="1.8"/><cameraLookAt x="0.0" y="0.0" z="0.6"/>
+  </cameraPose>
+</ExD>

@@ -5,7 +5,8 @@
 def set_neuron_rate(t, input_neuron, model_states):
     states = model_states.value
     try:
-        i = states.name.index("ball")
-        input_neuron.voltage = states.pose[i].position.y
+        if t > 1.3:
+            input_neuron.voltage = 10
+            clientLogger.info("Neuron Input potential: {}".format(input_neuron.voltage))
     except ValueError:
         input_neuron.voltage = 0.0

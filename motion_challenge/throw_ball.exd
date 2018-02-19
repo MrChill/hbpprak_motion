@@ -129,7 +129,7 @@ class FlyingBallState(State):
 with sm:
     StateMachine.add(
       "wait",
-      WaitState(5.0),
+      WaitState(1.0),
       transitions = {'success': 'throw_ball',
                      'aborted': ERROR})
     StateMachine.add(

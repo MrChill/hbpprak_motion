@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ns1:ExD xmlns:ns1="http://schemas.humanbrainproject.eu/SP10/2014/ExDConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <ns1:name>Motion Comittee Testing Experiment</ns1:name>
+  <ns1:name>Motion Challenge</ns1:name>
   <ns1:thumbnail>ExDTemplateManipulation.jpg</ns1:thumbnail>
   <ns1:description>Hit a ball as far as possible with a tennis racket</ns1:description>
   <ns1:tags>hollie robotics</ns1:tags>

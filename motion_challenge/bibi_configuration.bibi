@@ -1,0 +1,11 @@
+<?xml version="1.0" ?>
+<bibi xmlns="http://schemas.humanbrainproject.eu/SP10/2014/BIBI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <brainModel>
+        <file>idle_brain.py</file>
+    </brainModel>
+    <bodyModel>arm_robot.sdf</bodyModel>
+  <transferFunction xsi:type="PythonTransferFunction" src="simple_move_robot.py"/>
+  <transferFunction xsi:type="PythonTransferFunction" src="monitor_population.py"/>
+  <transferFunction xsi:type="PythonTransferFunction" src="robot2brain.py"/>
+  <transferFunction xsi:type="PythonTransferFunction" src="swing.py"/>
+</bibi>
